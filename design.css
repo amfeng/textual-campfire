@@ -165,6 +165,10 @@ body div[type*="privmsg"] {
   position: relative;
 }
 
+body div[type*=ctcp] .message,
+body div[type*=wallop] .message,
+body div[type*=notice] .message,
+body div[type*=action] .message,
 body div[type*="privmsg"] .message {
 	color: #444;
   display: inline-block;
