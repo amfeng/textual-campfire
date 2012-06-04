@@ -51,6 +51,10 @@ body[dir=ltr] .sender {
 
 /* Time */
 
+body div[type*=ctcp] .time,
+body div[type*=wallop] .time,
+body div[type*=notice] .time,
+body div[type*=action] .time,
 body div[type*=privmsg] .time {
 	color: #aaa;
   height: 25px;
